@@ -1,7 +1,7 @@
 # This program calculates the collocations in the tokenized entries/articles
 # of an rss/atom feed after the url of the feed is provided by the user.
 # It provides the output in numerical order of the entries/articles.
-# The uses rss_scraper_tokenizedtext_class and its method to scrape the feed
+# The program uses rss_scraper_tokenizedtext_class and its method to scrape the feed
 # and instantiate tokenized text.
 
 import nltk, re, pprint
