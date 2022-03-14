@@ -14,6 +14,6 @@ def collocations():
     for article in rss_tokenized_entries:
         print(rss_tokenized_entries.index(article)+1)
         text = nltk.Text(article)
-        text1 = text.collocations()
+        text.collocations()
 
 collocations()
